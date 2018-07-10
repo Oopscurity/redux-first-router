@@ -1,5 +1,5 @@
 {
-  "name": "redux-first-router",
+  "name": "@oopscurity/redux-first-router",
   "version": "0.0.20-next",
   "description": "think of your app in states not routes (and, yes, while keeping the address bar in sync)",
   "main": "dist/index.js",
