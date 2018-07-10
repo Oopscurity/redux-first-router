@@ -150,7 +150,7 @@ export default (
 
   const scrollBehavior = restoreScroll && restoreScroll(history)
 
-  const initialAction = pathToAction(currentPath, routesMap)
+  const initialAction = pathToAction(currentPath, routesMap, querySerializer)
   const { type, payload, meta }: ReceivedAction = initialAction
 
   const INITIAL_LOCATION_STATE: LocationState = getInitialState(
