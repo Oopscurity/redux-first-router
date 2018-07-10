@@ -513,6 +513,13 @@ it('title and location options as selector functions', () => {
   expect(action).toMatchSnapshot()
 })
 
+it('QUERY: preserved at the initial state', () => {
+  const { store } = setupAll('/third?key=value', { querySerializer })
+
+  const state = store.getState()
+  expect(state).toMatchSnapshot()
+})
+
 it('QUERY: dispatched as action.query', () => {
   const { store } = setupAll('/third', { querySerializer })
   const query = { foo: 'bar', baz: 69 }

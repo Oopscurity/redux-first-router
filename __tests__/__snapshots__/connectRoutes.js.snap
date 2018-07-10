@@ -194,6 +194,34 @@ Object {
 }
 `;
 
+exports[`QUERY: preserved at the initial state 1`] = `
+Object {
+  "location": Object {
+    "hasSSR": undefined,
+    "history": undefined,
+    "kind": "load",
+    "pathname": "/third",
+    "payload": Object {},
+    "prev": Object {
+      "pathname": "",
+      "payload": Object {},
+      "type": "",
+    },
+    "query": Object {
+      "key": "value",
+    },
+    "routesMap": Object {
+      "FIRST": "/first",
+      "SECOND": "/second/:param",
+      "THIRD": "/third",
+    },
+    "search": "key=value",
+    "type": "THIRD",
+  },
+  "title": "THIRD",
+}
+`;
+
 exports[`enhancer -> _historyAttemptDispatchAction() dispatches action matching pathname when history location changes 1`] = `
 Object {
   "meta": Object {
