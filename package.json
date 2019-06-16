@@ -1,5 +1,5 @@
 {
-  "name": "redux-first-router",
+  "name": "@oopscurity/redux-first-router",
   "version": "2.1.1",
   "description": "think of your app in states not routes (and, yes, while keeping the address bar in sync)",
   "main": "dist/index.js",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/faceyspacey/redux-first-router.git"
+    "url": "https://github.com/artkravchenko/redux-first-router.git"
   },
   "author": "James Gillmore <james@faceyspacey.com>",
   "maintainers": [
